@@ -9,5 +9,5 @@ import (
 
 func main() {
 	fmt.Println("This is cbs submodules. Will call ipcMsg")
-	ipcMsg.OutputString()
+	fmt.Println(ipcMsg.OutputString())
 }
