@@ -128,11 +128,20 @@ go: finding module for package github.com/JeffLiang2018/go-submodules/events
 go: downloading github.com/JeffLiang2018/go-submodules v0.0.0-20240312203500-6cc22125bbc4
 github.com/JeffLiang2018/go-submodules/pcm imports
 	github.com/JeffLiang2018/go-submodules/events: module github.com/JeffLiang2018/go-submodules@latest found (v0.0.0-20240312203500-6cc22125bbc4), but does not contain package github.com/JeffLiang2018/go-submodules/events
-# check in the submodule events
-
+# check in the changes and create the pull request, then merge it
+# I can still see the error:
+go mod tidy
+go: finding module for package github.com/JeffLiang2018/go-submodules/events
+go: downloading github.com/JeffLiang2018/go-submodules v0.0.0-20240312214829-89c4457f7f3f
+github.com/JeffLiang2018/go-submodules/pcm imports
+	github.com/JeffLiang2018/go-submodules/events: module github.com/JeffLiang2018/go-submodules@latest found (v0.0.0-20240312214829-89c4457f7f3f), but does not contain package github.com/JeffLiang2018/go-submodules/events
+# Import events module has to be added manually: github.com/JeffLiang2018/go-submodules/events v0.0.1
+# (Optional) Sync up in GoLand
+# Update pcm/main.go 
 
 ```
 
-
-
+If there is multiple levels of dependencies, go module will use the latest version as possible for each dependency level.
+Suggestion: If you want to use a particular version, don't use multiple levels of dependencies 
+When run `go mod tidy`, the dependencies in go.mod will be upgrade to the latest one.
 
