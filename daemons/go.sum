@@ -1,0 +1,4 @@
+github.com/JeffLiang2018/go-submodules/debugApi v0.0.0-20240312004307-55fb3f0dc41c h1:o9cCmzz78qSRRox6Oy5gFWCnkPRZJ5kHGkkjUG5ctl0=
+github.com/JeffLiang2018/go-submodules/debugApi v0.0.0-20240312004307-55fb3f0dc41c/go.mod h1:MuDhU9AlJO3ak7P8xpGHQ3i+rz5Vyz1ngCDBmjYx7C4=
+github.com/JeffLiang2018/go-submodules/ipcMsg v0.0.1 h1:OiVQfsbkydHejR4DGfdhnAkRaah+NuL5P8pVrwQy6Pg=
+github.com/JeffLiang2018/go-submodules/ipcMsg v0.0.1/go.mod h1:xYcZYFw9oLfoEZIvH7L8AmAwNuqAd2MzfRyfqQoSBCE=
