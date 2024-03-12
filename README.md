@@ -115,4 +115,24 @@ git tag oro/v0.0.5
 ```
 
 #### Step 7:
-Spiking on multiple levels dependency
+Add events submodule and add it to pcm reference:
+```shell
+git checkout -b feat-multiple-level-dependencies
+mkdir events
+cd events
+go mod init github.com/JeffLiang2018/go-submodules/events
+# create go files and add import
+go mod tidy
+# If now import events in pcm and sync up pcm module, you would see the following error:
+go: finding module for package github.com/JeffLiang2018/go-submodules/events
+go: downloading github.com/JeffLiang2018/go-submodules v0.0.0-20240312203500-6cc22125bbc4
+github.com/JeffLiang2018/go-submodules/pcm imports
+	github.com/JeffLiang2018/go-submodules/events: module github.com/JeffLiang2018/go-submodules@latest found (v0.0.0-20240312203500-6cc22125bbc4), but does not contain package github.com/JeffLiang2018/go-submodules/events
+# check in the submodule events
+
+
+```
+
+
+
+
