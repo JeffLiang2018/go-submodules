@@ -141,7 +141,9 @@ github.com/JeffLiang2018/go-submodules/pcm imports
 
 ```
 
-If there is multiple levels of dependencies, go module will use the latest version as possible for each dependency level.
-Suggestion: If you want to use a particular version, don't use multiple levels of dependencies 
-When run `go mod tidy`, the dependencies in go.mod will be upgrade to the latest one.
+Please read [pcm/README.md](./pcm/README.md) for more dependencies details in multiple go modules in single repo
+
+#### Step 8:
+Upgrade ipcMsg
+
 

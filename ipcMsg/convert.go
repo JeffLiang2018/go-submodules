@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	ipcMsgVersion = "v0.0.2"
+	ipcMsgVersion = "v0.0.3"
 	PrintString = "ipcMsg " + ipcMsgVersion
 )
 
