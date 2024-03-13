@@ -4,7 +4,7 @@ import (
 "github.com/JeffLiang2018/go-submodules/ipcMsg"
 )
 
-const EVENTS_VERSION = "v0.0.3"
+const EVENTS_VERSION = "v0.0.4"
 
 
 func SearchAllEvents() string {
