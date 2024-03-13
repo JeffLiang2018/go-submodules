@@ -87,6 +87,7 @@ main.go:5:2: missing go.sum entry for module providing package github.com/JeffLi
 	go get github.com/JeffLiang2018/go-submodules/pcm
 ```
 pcm call events@v0.0.1 (with ipcMsg@v0.0.2)
+(Optional) play with events@v0.0.3 and events@v0.0.4
 
 ### Conclusion
 If multiple levels dependencies exists, go multiple modules would use the latest version for the leaf dependency.

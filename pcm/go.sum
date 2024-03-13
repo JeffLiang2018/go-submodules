@@ -1,8 +1,10 @@
 github.com/JeffLiang2018/go-submodules/events v0.0.1 h1:6+bZUbPg3cRdMzY0eVBJQlUCZHxcxwigHffGD5l15Cc=
 github.com/JeffLiang2018/go-submodules/events v0.0.1/go.mod h1:OjBNweEDiqgybD2VIoAAFQ4cXyISNCC8xMLfy1Yvr/M=
-github.com/JeffLiang2018/go-submodules/events v0.0.2 h1:Ah4/lD9qiRQosJkw0+OCkaM/F43qqLmgn+m/81c2DUs=
-github.com/JeffLiang2018/go-submodules/events v0.0.2/go.mod h1:bt1VBcXP/x+Ax/pRGxaENQWWKLK3c99MAglBuHupBH0=
+github.com/JeffLiang2018/go-submodules/events v0.0.3 h1:r05xY+tr+msTDMRZup/DEug7noXrVYOQXkAWs/ke3E0=
+github.com/JeffLiang2018/go-submodules/events v0.0.3/go.mod h1:bt1VBcXP/x+Ax/pRGxaENQWWKLK3c99MAglBuHupBH0=
+github.com/JeffLiang2018/go-submodules/events v0.0.4 h1:kmKFAIIbFTV2Y3uvbPoH4Jqj4OYpoka8BqPt1vUsF4c=
+github.com/JeffLiang2018/go-submodules/events v0.0.4/go.mod h1:bt1VBcXP/x+Ax/pRGxaENQWWKLK3c99MAglBuHupBH0=
+github.com/JeffLiang2018/go-submodules/ipcMsg v0.0.1 h1:OiVQfsbkydHejR4DGfdhnAkRaah+NuL5P8pVrwQy6Pg=
+github.com/JeffLiang2018/go-submodules/ipcMsg v0.0.1/go.mod h1:xYcZYFw9oLfoEZIvH7L8AmAwNuqAd2MzfRyfqQoSBCE=
 github.com/JeffLiang2018/go-submodules/ipcMsg v0.0.2 h1:kdqRc0Pw6v6l5+j5dQNdKaGFos++xjdTIVJA5U12F0c=
 github.com/JeffLiang2018/go-submodules/ipcMsg v0.0.2/go.mod h1:xYcZYFw9oLfoEZIvH7L8AmAwNuqAd2MzfRyfqQoSBCE=
-github.com/JeffLiang2018/go-submodules/ipcMsg v0.0.3 h1:W5sSl6UPYaRTnOzAIlfkQ3PIb5tdPg3EN1ClGBh2T7c=
-github.com/JeffLiang2018/go-submodules/ipcMsg v0.0.3/go.mod h1:xYcZYFw9oLfoEZIvH7L8AmAwNuqAd2MzfRyfqQoSBCE=
