@@ -151,7 +151,7 @@ Upgrade ipcMsg
 git tag ipcMsg/v0.0.3
 git push origin ipcMsg/v0.0.3
 # checkout new feat branch for pcm dependency upgrade
-# update pcm/go.mod, and run "go get github.com/JeffLiang2018/go-submodules/pcm"
+# update pcm/go.mod, and run "go get github.com/JeffLiang2018/go-submodules/pcm", then pcm would use v0.0.3 for both ipcMsg and events modules
 # check in the code and create pull request, then merge it
 ```
 
