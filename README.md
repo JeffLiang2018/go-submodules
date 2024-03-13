@@ -145,5 +145,14 @@ Please read [pcm/README.md](./pcm/README.md) for more dependencies details in mu
 
 #### Step 8:
 Upgrade ipcMsg
+```shell
+# checkout new feat branch and edit ipcMsg module
+# check in the code and create pull request, then merge it
+git tag ipcMsg/v0.0.3
+git push origin ipcMsg/v0.0.3
+# checkout new feat branch for pcm dependency upgrade
+# update pcm/go.mod, and run "go get github.com/JeffLiang2018/go-submodules/pcm"
+# check in the code and create pull request, then merge it
+```
 
 
