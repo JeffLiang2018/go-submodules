@@ -7,13 +7,13 @@ events modules: v0.0.1 (ipcMsg@v0.0.2)
 ### Case 1
 ```
 .
-|-- ipcMsg
+|-- ipcMsg   (ipcMsg@v0.0.2)
 |   |-- go.mod
 |   `-- convert.go
-`-- events
-|   |-- go.mod  => (@v0.0.1)
+`-- events    (events@v0.0.1)
+|   |-- go.mod  => (ipcMsg @v0.0.2)
 |   `-- searchEngine.go
-`-- pcm
+`-- pcm    (oro@v1.1.1)
 |   |-- go.mod => event@v0.0.1, ipcMsg@v0.0.1
 |   `-- main.go
 ```
@@ -91,4 +91,4 @@ pcm call events@v0.0.1 (with ipcMsg@v0.0.2)
 
 ### Conclusion
 If multiple levels dependencies exists, go multiple modules would use the latest version for the leaf dependency.
-Unless, all dependency levels are mapping to the exact version.
+`Unless, all dependency levels are mapping to the exact version.`
