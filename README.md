@@ -155,4 +155,6 @@ git push origin ipcMsg/v0.0.3
 # check in the code and create pull request, then merge it
 ```
 
+#### Step 9:
+Check whether I can create tag on feature branches
 
